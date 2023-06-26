@@ -6,7 +6,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-
 /**
  * @author Kayrat Japarbek
  */

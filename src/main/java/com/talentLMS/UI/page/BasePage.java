@@ -4,7 +4,6 @@ import com.talentLMS.UI.Helper.WebElementActions;
 import com.talentLMS.UI.driverFactory.Driver;
 import org.openqa.selenium.support.PageFactory;
 
-
 /**
  * @author Kayrat Japarbek
  */
@@ -15,6 +14,5 @@ public abstract class BasePage {
     }
 
     WebElementActions elementActions = new WebElementActions();
-
 
 }
