@@ -1,9 +1,7 @@
 package com.talentLMS.UI.driverFactory;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import java.time.Duration;
 
 /**

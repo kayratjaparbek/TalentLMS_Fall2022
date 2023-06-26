@@ -1,6 +1,5 @@
 package com.talentLMS.UI.page;
 
-
 /**
  * @author Kayrat Japarbek
  */

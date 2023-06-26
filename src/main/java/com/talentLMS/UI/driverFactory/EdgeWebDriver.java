@@ -2,14 +2,12 @@ package com.talentLMS.UI.driverFactory;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-
 import java.time.Duration;
 
 /**
  * @author Kayrat Japarbek
  */
 public class EdgeWebDriver {
-
 
 
     public static WebDriver loadEdgeDriver() {
@@ -21,7 +19,5 @@ public class EdgeWebDriver {
 
         return driver;
     }
-
-
 }
 

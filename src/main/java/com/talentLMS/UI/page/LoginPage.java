@@ -2,18 +2,14 @@ package com.talentLMS.UI.page;
 
 import com.talentLMS.UI.driverFactory.Driver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.bidi.log.Log;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import java.security.PublicKey;
 
 /**
  * @author Kayrat Japarbek
  */
 
 public class LoginPage extends BasePage {
-
     public LoginPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -38,11 +34,6 @@ public class LoginPage extends BasePage {
 
     @FindBy(xpath = "//*[@id=\"tlLoginForm\"]/div[3]/div/div/span/span")
     public WebElement passwordErrMessage;
-
-
-
-
-
 
 
     public LoginPage clickLoginBtn() {
