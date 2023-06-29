@@ -1,6 +1,6 @@
 {
   "base": {
-    "logo": "logo.png",
+    "logo": "",
     "project": "TalentLMS",
     "environment": "qa_env",
     "comment": "",
