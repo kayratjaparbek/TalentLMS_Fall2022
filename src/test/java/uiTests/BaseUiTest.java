@@ -5,6 +5,7 @@ import com.talentLMS.UI.driverFactory.Driver;
 import com.talentLMS.UI.page.AdminHomePage;
 import com.talentLMS.UI.page.LoginPage;
 import com.talentLMS.UI.page.Users.UsersPage;
+import io.qameta.allure.Feature;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 /**
@@ -17,6 +18,7 @@ public abstract  class BaseUiTest {
     public AdminHomePage adminHomePage;
     public UsersPage usersPage;
     public WebElementActions webElementActions;
+
 
     @BeforeMethod
     public void setUpUiTest() {
