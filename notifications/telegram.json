@@ -1,6 +1,6 @@
 {
   "base": {
-    "logo": "C:\Users\admin\IdeaProjects\TalentLMS_Fall2022\src\main\resources\logo.png",
+    "logo": "logo.png",
     "project": "TalentLMS",
     "environment": "qa_env",
     "comment": "",
