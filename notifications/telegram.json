@@ -5,7 +5,7 @@
     "environment": "qa_env",
     "comment": "",
     "reportLink": "",
-    "language": "ru",
+    "language": "en",
     "allureFolder": "allure-report",
     "enableChart": true
   },
