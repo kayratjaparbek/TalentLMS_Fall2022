@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "TalentLMS",
+    "environment": "qa_env",
+    "comment": "",
+    "reportLink": "",
+    "language": "ru",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6168675805:AAFgM55Tmg798yYH3M_K9jP1QKNQg77LNZM",
+    "chat": "-1001807728217",
+    "replyTo": ""
+  }
+}
