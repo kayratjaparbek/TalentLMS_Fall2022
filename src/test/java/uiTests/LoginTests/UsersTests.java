@@ -29,4 +29,15 @@ public class UsersTests extends BaseUiTest {
         List<WebElement> rows = Driver.getDriver().findElements(By.xpath("//*[@id='tl-users-grid']/tbody/tr"));
         Assert.assertEquals(rows.size(), 4);
     }
+
+    @Test
+    @Description("Проверка добавления пользователя")
+    @Feature("Пользователи")
+    public void checkingAddUser() {
+        Driver.getDriver().navigate().to("a_env");
+        loginPage.fillUpUsernameAndPassword("zhaparbekuulu@gmail.com", "Bruno568112");
+        adminHomePage.usersBtn.click();
+
+    }
+
 }
